@@ -1,0 +1,5 @@
+<div *ngFor = "let btn of button; let idx = index;" class="board">
+  <button (click)="switch(idx, false)" class="on" *ngIf = "btn">on</button>
+  <button (click)="switch(idx, true)" class="off" *ngIf = "!btn">off</button>
+
+</div>

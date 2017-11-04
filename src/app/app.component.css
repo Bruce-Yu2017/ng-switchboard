@@ -1,0 +1,26 @@
+.board {
+    height: 100px;
+    width: 100px;
+    background-color: #784004;
+    border: 2px solid black;
+    padding: 25px;
+    box-sizing: border-box;
+    display: inline-block
+}
+
+.on {
+    height: 50px;
+    width: 50px;
+    background-color: #129e0f;
+    border: 2px solid black;
+    /* box-sizing: border-box; */
+    color: white;
+}
+.off {
+    height: 50px;
+    width: 50px;
+    background-color: #ee8686;
+    border: 2px solid black;
+    /* box-sizing: border-box; */
+    color: white;
+}
